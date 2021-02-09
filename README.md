@@ -10,20 +10,7 @@ R version : 3.6.2
 RStudio Version : RStudio Desktop 1.2.5033
 
 ## R 필요패키지
-tidyverse
-plyr
-magrittr
-data.table
-stringr
-tm
-rlist
-prophet
-lubridate
-catboost
-devtools
-parallel
-doSNOW
-foreach
+tidyverse, plyr, magrittr, data.table, stringr, tm, rlist, prophet, lubridate, catboost, devtools, parallel, doSNOW, foreach
 
 ## 설명
 - R version은 3.6.2를 기준으로 사용했습니다.
