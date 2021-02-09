@@ -9,7 +9,7 @@ GPU : NVIDIA Geforce GTX 1060
 R version : 3.6.2
 RStudio Version : RStudio Desktop 1.2.5033
 
-# R 필요패키지
+## R 필요패키지
 tidyverse
 plyr
 magrittr
