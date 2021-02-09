@@ -12,6 +12,12 @@ RStudio Version : RStudio Desktop 1.2.5033
 ## R 필요패키지
 tidyverse, plyr, magrittr, data.table, stringr, tm, rlist, prophet, lubridate, catboost, devtools, parallel, doSNOW, foreach
 
+## 파일 순서
+|  Stage | Preprocessing |  Preprocessing  | Preprocessing | Modeling | Inference |
+|:------:|:-------------:|:---------------:|:-------------:|:--------:|:---------:|
+| Script |  preprocess.R | ts_preprocess.R |  ts_predict.R |  model.R | predict.R |
+
+
 ## 설명
 - 공모전용 데이터를 사용했기에  데이터는 게재하지 않았습니다.  
 - R version은 3.6.2를 기준으로 사용했습니다.  
@@ -22,5 +28,4 @@ tidyverse, plyr, magrittr, data.table, stringr, tm, rlist, prophet, lubridate, c
   -> setwd("작업디렉토리")를 실행해주세요. ex) 바탕화면에서 작업하는 경우, setwd("C:/Users/wongu/Desktop")  
 
 - 주어진 패키지 설치는 preprocess.R을 실행하면 초반에 설치되어집니다.  
-- 실행 순서는 [preprocess.R] -> [model.R] -> [predict.R] 입니다.  
-- 각각 모듈에서 실행되어 나오는 파일들은 이름과 순서번호를 부여받은 폴더 안에 저장되어집니다.  
+- 각 모듈의 아웃풋 파일들은 이름과 순서번호를 부여받은 폴더 안에 저장되어집니다.  
