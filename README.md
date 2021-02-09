@@ -13,6 +13,7 @@ RStudio Version : RStudio Desktop 1.2.5033
 tidyverse, plyr, magrittr, data.table, stringr, tm, rlist, prophet, lubridate, catboost, devtools, parallel, doSNOW, foreach
 
 ## 설명
+- 공모전용 데이터를 사용했기에  데이터는 게재하지 않았습니다.  
 - R version은 3.6.2를 기준으로 사용했습니다.  
 - [중요] 실행환경은 각 모듈마다의 R script(3개의 R파일)를 만들어 놓았습니다. 이를 [R x64 3.6.2] 를 실행시키고 차례대로(preprocess - model - predict) 전체를 복사 붙여넣기 하여 진행합니다.  
  ㄴ 이때 모든 R파일과 기본에 주어진 모든 파일 (audience_profile.csv, test.csv, train.csv)을 주어진 모듈과 같은 디렉토리에 넣고 실행해주십시오.  
