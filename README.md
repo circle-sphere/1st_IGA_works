@@ -13,6 +13,7 @@ RStudio Version : RStudio Desktop 1.2.5033
 tidyverse, plyr, magrittr, data.table, stringr, tm, rlist, prophet, lubridate, catboost, devtools, parallel, doSNOW, foreach
 
 ## 파일 순서
+In kimhongdoh file,
 |  Stage | Preprocessing | Modeling | Inference |
 |:------:|:-------------:|:--------:|:---------:|
 | Script |  preprocess.R |  model.R | predict.R |
